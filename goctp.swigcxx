@@ -9,7 +9,8 @@
 
 %feature("director") CThostFtdcMdSpi;
 %feature("director") CThostFtdcTraderSpi;
-
+%rename(Ctp_CThostFtdcMdSpi) CThostFtdcMdSpi;
+%rename(Ctp_CThostFtdcTraderSpi) CThostFtdcTraderSpi;
 %include "./api/v6.6.5_20210924_api_tradeapi_se_linux64/ThostFtdcUserApiDataType.h"
 %include "./api/v6.6.5_20210924_api_tradeapi_se_linux64/ThostFtdcUserApiStruct.h"
 %include "./api/v6.6.5_20210924_api_tradeapi_se_linux64/ThostFtdcTraderApi.h"
